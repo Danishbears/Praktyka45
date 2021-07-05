@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ParamStore>
+
+  <ParamDefinitionList name="Capture">
+    <ParamListGroup name="">
+      <ParamList name="default">
+        <Param name="BufferRangeInSeconds" value="2.066"/>
+        <Param name="BufferLatencyInSeconds" value="0.006"/>
+        <Param name="MeasuredFrameRate" value="101"/>
+        <Param name="FramesCaptured" value="736"/>
+        <Param name="FramesDropped" value="0"/>
+        <Param name="ErrorString" value=""/>
+        <Param name="ArmedStatus" value="1"/>
+        <Param name="TimeCapturedString" value=""/>
+        <Param name="LowDiskSpace"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::Analog EMG">
+    <ParamListGroup name="">
+      <ParamList name="Device::0e40f8db2d1cbed62d9b7bec2d1ce3dc">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value=""/>
+        <Param name="Connected" value="1"/>
+        <Param name="DelayCompensation" value="0.016"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="34604534:0"/>
+        <Param name="Connectivity" value="Analogue"/>
+        <Param name="SourceID" value="2"/>
+        <Param name="SourceStatus" value="Ok"/>
+        <Param name="DeviceFamily" value="Analog EMG"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="FramePeriod" value="1350000"/>
+        <Param name="SamplePeriod" value="135000"/>
+        <Param name="Visible" value="1"/>
+        <Param name="AlwaysShow" value="1"/>
+        <Param name="AmplifierGain" value="1"/>
+        <Param name="RawVisible" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::Analog EMG::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1">
+        <Param name="DeviceOutputName" value="Voltage"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Voltage"/>
+        <Param name="DeviceOutputQuantity" value="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::Analog EMG::Voltage">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,1">
+        <Param name="DeviceOutputComponentName" value="1"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+        <Param name="SourcePin" value="1"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.000368958"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,10">
+        <Param name="DeviceOutputComponentName" value="le_dwuglowy_udo"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="10"/>
+        <Param name="SourcePin" value="10"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="-0.000325928"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,11">
+        <Param name="DeviceOutputComponentName" value="pr_VMO"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="11"/>
+        <Param name="SourcePin" value="11"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="-0.00268158"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,12">
+        <Param name="DeviceOutputComponentName" value="le_VMO"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="12"/>
+        <Param name="SourcePin" value="12"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00107147"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,13">
+        <Param name="DeviceOutputComponentName" value="13"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="13"/>
+        <Param name="SourcePin" value="13"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00142853"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,14">
+        <Param name="DeviceOutputComponentName" value="14"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="14"/>
+        <Param name="SourcePin" value="14"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="-0.000763855"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,15">
+        <Param name="DeviceOutputComponentName" value="15"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="15"/>
+        <Param name="SourcePin" value="15"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="-0.00819702"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,16">
+        <Param name="DeviceOutputComponentName" value="16"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="16"/>
+        <Param name="SourcePin" value="16"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="2.13623e-006"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,2">
+        <Param name="DeviceOutputComponentName" value="2"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+        <Param name="SourcePin" value="2"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.000610962"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,3">
+        <Param name="DeviceOutputComponentName" value="3"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+        <Param name="SourcePin" value="3"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.000591736"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,4">
+        <Param name="DeviceOutputComponentName" value="4"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="4"/>
+        <Param name="SourcePin" value="4"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00233154"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,5">
+        <Param name="DeviceOutputComponentName" value="5"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="5"/>
+        <Param name="SourcePin" value="5"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00186066"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,6">
+        <Param name="DeviceOutputComponentName" value="6"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="6"/>
+        <Param name="SourcePin" value="6"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00175842"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,7">
+        <Param name="DeviceOutputComponentName" value="pr_prosty_udo"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="7"/>
+        <Param name="SourcePin" value="7"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00195526"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,8">
+        <Param name="DeviceOutputComponentName" value="le_prosty_udo"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="8"/>
+        <Param name="SourcePin" value="8"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="-0.00268982"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::0e40f8db2d1cbed62d9b7bec2d1ce3dc,1,9">
+        <Param name="DeviceOutputComponentName" value="pr_dwuglowy_udo"/>
+        <Param name="DeviceTag" value="0e40f8db2d1cbed62d9b7bec2d1ce3dc"/>
+        <Param name="DeviceID" value="1"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="9"/>
+        <Param name="SourcePin" value="9"/>
+        <Param name="SourceGain" value="10"/>
+        <Param name="ZeroLevel" value="0.00219879"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="FlowParameters">
+    <ParamListGroup name="">
+      <ParamList name="">
+        <Param name="General.FirstProcessingStage" value="1"/>
+        <Param name="General.OutputLevel" value="4"/>
+        <Param name="General.CalibrationLevel" value="0"/>
+        <Param name="General.NumberOfSubjects" value="0"/>
+        <Param name="General.FillGaps" value="0"/>
+        <Param name="Input.EnableClock" value="0"/>
+        <Param name="Input.Filename" value=""/>
+        <Param name="Input.Loop" value="0"/>
+        <Param name="Input.StartFrame" value="0"/>
+        <Param name="Input.EndFrame" value="4294967295"/>
+        <Param name="CameraBlackList" value=""/>
+        <Param name="CircleFitter.Enabled" value="1"/>
+        <Param name="CircleFitter.ThreadCount" value="0"/>
+        <Param name="CircleFitter.ProcessPriority" value="1"/>
+        <Param name="CircleFitterType" value="FastSplit"/>
+        <Param name="SlowFitCircularityThreshold" value="0.5"/>
+        <Param name="SlowFitSizeThreshold" value="200"/>
+        <Param name="SlowFitIntensityThreshold" value="0.3"/>
+        <Param name="CircularityTweak" value="0"/>
+        <Param name="VideoCentroids.Enabled" value="0"/>
+        <Param name="Reconstructor.ThreadCount" value="0"/>
+        <Param name="Reconstructor.ProcessPriority" value="1"/>
+        <Param name="Reconstructor.Enabled" value="1"/>
+        <Param name="EnvironmentalDriftTolerance" value="1.5"/>
+        <Param name="MinCams" value="2"/>
+        <Param name="MinCamsWithPrediction" value="2"/>
+        <Param name="MinSeparation" value="4"/>
+        <Param name="MinCentroidRadius" value="0"/>
+        <Param name="MaxCentroidRadius" value="50"/>
+        <Param name="MinReconRadius" value="0"/>
+        <Param name="MaxReconRadius" value="1000"/>
+        <Param name="PredictionMatchScoreFactor" value="2"/>
+        <Param name="StartupError" value="150"/>
+        <Param name="PredictionError" value="150"/>
+        <Param name="MinReconX" value="-100000"/>
+        <Param name="MinReconY" value="-100000"/>
+        <Param name="MinReconZ" value="-100000"/>
+        <Param name="MaxReconX" value="100000"/>
+        <Param name="MaxReconY" value="100000"/>
+        <Param name="MaxReconZ" value="100000"/>
+        <Param name="Labeller.ThreadCount" value="0"/>
+        <Param name="Labeller.ProcessPriority" value="1"/>
+        <Param name="ForceUnlabelledSubjectsOutputList" value=""/>
+        <Param name="Labeller.BootEveryFrame" value="0"/>
+        <Param name="EntranceThreshold" value="0.85"/>
+        <Param name="ExitThreshold" value="0.6"/>
+        <Param name="Labeller.UseRobustBooting" value="0"/>
+        <Param name="BootingQualityHeuristic" value="0"/>
+        <Param name="BootingVersusTrackingHeuristic" value="0.5"/>
+        <Param name="TrackingQualityHeuristic" value="0"/>
+        <Param name="TrackingPriorImportance" value="200"/>
+        <Param name="JointRangeThreshold" value="1"/>
+        <Param name="Labeller.EnforceRanges" value="0"/>
+        <Param name="UseUnconstrainessScore" value="1"/>
+        <Param name="UnconstrainessEntranceThreshold" value="1"/>
+        <Param name="UnconstrainessExitThreshold" value="1.5"/>
+        <Param name="BootingKinematicFitThreshold" value="-50"/>
+        <Param name="UseFinalSolvePool" value="0"/>
+        <Param name="LabelScore" value="1"/>
+        <Param name="MergerMarkerImportance" value="0.5"/>
+        <Param name="UnassignedReconProb" value="1e-010"/>
+        <Param name="UnassignedLabelProb" value="1e-005"/>
+        <Param name="MarkerFitThreshold" value="55"/>
+        <Param name="TrackingKinematicFitThreshold" value="-50"/>
+        <Param name="LogMissingMarkerProbability" value="-18.4207"/>
+        <Param name="OutOfRangePenalty" value="5"/>
+        <Param name="SmoothnessHeuristic" value="0"/>
+        <Param name="DataFidelityHeuristic" value="0"/>
+        <Param name="GapFiller.TransitionTime" value="2"/>
+        <Param name="Solver.ThreadCount" value="0"/>
+        <Param name="Solver.ProcessPriority" value="1"/>
+        <Param name="PriorImportance" value="25"/>
+        <Param name="MeanPoseRatio" value="1"/>
+        <Param name="UseSubjectForSolving" value="0"/>
+        <Param name="ExtrapolateFingerData" value="0"/>
+        <Param name="SecondPhalanxFactor" value="1.5"/>
+        <Param name="Output.StateCache" value="0"/>
+        <Param name="Output.C3DFilename" value=""/>
+        <Param name="Output.FSSFilename" value=""/>
+        <Param name="Output.X2DFilename" value=""/>
+        <Param name="FitReconVolToTarget" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="MXCamera">
+    <ParamListGroup name="">
+      <ParamList name="25459">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25459"/>
+        <Param name="UserId" value="5"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.12"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="45"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:73"/>
+        <Param name="IPAddress" value="192.168.10.16"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177334"/>
+        <Param name="RadialParam1" value="0.059129"/>
+        <Param name="RadialParam2" value="-0.0891889"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25460">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25460"/>
+        <Param name="UserId" value="0"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.18"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="46"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:74"/>
+        <Param name="IPAddress" value="192.168.10.11"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177612"/>
+        <Param name="RadialParam1" value="0.0563785"/>
+        <Param name="RadialParam2" value="-0.0921937"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25477">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25477"/>
+        <Param name="UserId" value="3"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.12"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="46"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:85"/>
+        <Param name="IPAddress" value="192.168.10.14"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.017809"/>
+        <Param name="RadialParam1" value="0.0562882"/>
+        <Param name="RadialParam2" value="-0.0920452"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25478">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25478"/>
+        <Param name="UserId" value="6"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.1"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="46"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:86"/>
+        <Param name="IPAddress" value="192.168.10.17"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177331"/>
+        <Param name="RadialParam1" value="0.0619655"/>
+        <Param name="RadialParam2" value="-0.098398"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25479">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25479"/>
+        <Param name="UserId" value="4"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.25"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="46"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:87"/>
+        <Param name="IPAddress" value="192.168.10.10"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177553"/>
+        <Param name="RadialParam1" value="0.0573253"/>
+        <Param name="RadialParam2" value="-0.0899247"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25489">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25489"/>
+        <Param name="UserId" value="2"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.14"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="46"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:91"/>
+        <Param name="IPAddress" value="192.168.10.13"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177397"/>
+        <Param name="RadialParam1" value="0.0571058"/>
+        <Param name="RadialParam2" value="-0.0895076"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25493">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25493"/>
+        <Param name="UserId" value="7"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.1"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="45"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:95"/>
+        <Param name="IPAddress" value="192.168.10.18"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0178126"/>
+        <Param name="RadialParam1" value="0.0611343"/>
+        <Param name="RadialParam2" value="-0.0959293"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="25494">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="25494"/>
+        <Param name="UserId" value="1"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Strobe" value="1"/>
+        <Param name="Threshold" value="0.12"/>
+        <Param name="Gain" value="1"/>
+        <Param name="Greyscale" value="0"/>
+        <Param name="EnableWindowedFrameRates" value="1"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingCentroids" value="1"/>
+        <Param name="ContributingGreyscale" value="1"/>
+        <Param name="ContributingTracks" value="0"/>
+        <Param name="Type" value="DxCore41"/>
+        <Param name="DisplayType" value="MX T40-S"/>
+        <Param name="StrobeType" value="NIR 56"/>
+        <Param name="StrobeTemperature" value="45"/>
+        <Param name="SensorWidth" value="2336"/>
+        <Param name="SensorHeight" value="1728"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:00:63:96"/>
+        <Param name="IPAddress" value="192.168.10.12"/>
+        <Param name="StreamDestinationAddress" value="Default"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.5"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.0177044"/>
+        <Param name="RadialParam1" value="0.0642959"/>
+        <Param name="RadialParam2" value="-0.1151"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="MXControlCard">
+    <ParamListGroup name="">
+      <ParamList name="34604534 0">
+        <Param name="AnalogueSourceID" value="2"/>
+        <Param name="CardType" value="Analog Card"/>
+        <Param name="DeviceID" value="34604534"/>
+        <Param name="SlotID" value="0"/>
+        <Param name="SamplingEnabled" value="1"/>
+        <Param name="RequestedSamplePeriod" value="135000"/>
+        <Param name="ActualSamplePeriod" value="135000"/>
+        <Param name="CardChannels" value="64"/>
+        <Param name="UsedChannels" value=""/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="MXNet">
+    <ParamListGroup name="">
+      <ParamList name="34604534">
+        <Param name="Name" value=""/>
+        <Param name="Type" value="MX Giganet"/>
+        <Param name="Id" value="34604534"/>
+        <Param name="UserId" value="0"/>
+        <Param name="State" value="Ok"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="SyncMaster" value="1"/>
+        <Param name="GenlockEnabled" value="0"/>
+        <Param name="GenlockSource" value="2"/>
+        <Param name="GenlockStandard" value="0"/>
+        <Param name="GenlockStatus" value="None"/>
+        <Param name="TimecodeEnabled" value="0"/>
+        <Param name="TimecodeSource" value="8"/>
+        <Param name="TimecodeDropFrame" value="0"/>
+        <Param name="TimecodeStandard" value="2"/>
+        <Param name="TimecodeStatus" value="Ready To Use"/>
+        <Param name="MaxGPO" value="8"/>
+        <Param name="GPOPin1"/>
+        <Param name="GPOPin2"/>
+        <Param name="GPOPin3"/>
+        <Param name="GPOPin4"/>
+        <Param name="GPOPin5"/>
+        <Param name="GPOPin6"/>
+        <Param name="GPOPin7"/>
+        <Param name="GPOPin8"/>
+        <Param name="MACAddress" value="00:00:37:10:05:f6"/>
+        <Param name="IPAddress" value="192.168.10.15"/>
+        <Param name="FirmwareVersion" value="229"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Mk6System">
+    <ParamListGroup name="">
+      <ParamList name="">
+        <Param name="GenlockStandard" value="0"/>
+        <Param name="FrameRate" value="1200"/>
+        <Param name="ActualFrameRate" value="1200"/>
+        <Param name="MasterSelect" value="34604534"/>
+        <Param name="Warning" value=""/>
+        <Param name="BufferSize" value="750"/>
+        <Param name="BufferSizeRatio" value="0.5"/>
+        <Param name="Rewind" value="0"/>
+        <Param name="RebootAll" value="0"/>
+        <Param name="RealTimeBufferSize" value="20"/>
+        <Param name="MinimizeLatency" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="ViconVideoColor">
+    <ParamListGroup name="">
+      <ParamList name="2103565">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="2103565"/>
+        <Param name="UserId" value="2"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Threshold" value="0.07"/>
+        <Param name="ShutterDuration" value="1"/>
+        <Param name="VideoSaturation" value="1"/>
+        <Param name="VideoGainUnified" value="1"/>
+        <Param name="VideoGainRed" value="1"/>
+        <Param name="VideoGainGreen" value="1"/>
+        <Param name="VideoGainBlue" value="1"/>
+        <Param name="BrightnessOffsetUnified" value="0"/>
+        <Param name="BrightnessOffsetRed" value="0"/>
+        <Param name="BrightnessOffsetGreen" value="0"/>
+        <Param name="BrightnessOffsetBlue" value="0"/>
+        <Param name="CapturePath" value="F:/"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingVideo" value="1"/>
+        <Param name="Type" value="BONITA_2_VIDEO_1MP_C"/>
+        <Param name="DisplayType" value="Bonita 720c"/>
+        <Param name="SensorWidth" value="1280"/>
+        <Param name="SensorHeight" value="720"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:20:19:0d"/>
+        <Param name="IPAddress" value="192.168.10.20"/>
+        <Param name="StreamDestinationAddress" value="192.168.10.3"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="SubSampleRatio" value="1"/>
+        <Param name="FirmwareVersion" value="404"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.3"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.00505896"/>
+        <Param name="RadialParam1" value="0.376186"/>
+        <Param name="RadialParam2" value="0.290404"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+      <ParamList name="2103583">
+        <Param name="Name" value=""/>
+        <Param name="Id" value="2103583"/>
+        <Param name="UserId" value="1"/>
+        <Param name="Enabled" value="1"/>
+        <Param name="Threshold" value="0.14"/>
+        <Param name="ShutterDuration" value="1"/>
+        <Param name="VideoSaturation" value="1"/>
+        <Param name="VideoGainUnified" value="1"/>
+        <Param name="VideoGainRed" value="1"/>
+        <Param name="VideoGainGreen" value="1"/>
+        <Param name="VideoGainBlue" value="1"/>
+        <Param name="BrightnessOffsetUnified" value="0"/>
+        <Param name="BrightnessOffsetRed" value="0"/>
+        <Param name="BrightnessOffsetGreen" value="0"/>
+        <Param name="BrightnessOffsetBlue" value="0"/>
+        <Param name="CapturePath" value="F:/"/>
+        <Param name="CentroidTrackingEnable" value="0"/>
+        <Param name="CentroidTrackingMarkerVelocity" value="5"/>
+        <Param name="Focus" value="0"/>
+        <Param name="Aperture" value="0.5"/>
+        <Param name="Zoom" value="2.122e-314"/>
+        <Param name="Pan" value="0.5"/>
+        <Param name="Tilt" value="0.5"/>
+        <Param name="Connected" value="1"/>
+        <Param name="SyncMaster" value="0"/>
+        <Param name="Warning" value=""/>
+        <Param name="ContributingVideo" value="1"/>
+        <Param name="Type" value="BONITA_2_VIDEO_1MP_C"/>
+        <Param name="DisplayType" value="Bonita 720c"/>
+        <Param name="SensorWidth" value="1280"/>
+        <Param name="SensorHeight" value="720"/>
+        <Param name="Revision" value="1"/>
+        <Param name="MACAddress" value="00:00:37:20:19:1f"/>
+        <Param name="IPAddress" value="192.168.10.19"/>
+        <Param name="StreamDestinationAddress" value="192.168.10.2"/>
+        <Param name="StreamDestinationAddressCheck" value="1"/>
+        <Param name="SubSampleRatio" value="1"/>
+        <Param name="FirmwareVersion" value="404"/>
+        <Param name="FirmwareComplete" value="1"/>
+        <Param name="BackFocus" value="0"/>
+        <Param name="MinRatio" value="0.3"/>
+        <Param name="MaxPixelsPerLineToCircleFit" value="50"/>
+        <Param name="VideoCalibrationReady" value="0"/>
+        <Param name="ThresholdTableMode" value="2"/>
+        <Param name="EnableLEDs" value="1"/>
+        <Param name="ResetCalibration" value="0"/>
+        <Param name="FocalLength" value="0.00619957"/>
+        <Param name="RadialParam1" value="0.369496"/>
+        <Param name="RadialParam2" value="0.234628"/>
+        <Param name="Reboot" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::AMTI 400600 V1.0">
+    <ParamListGroup name="">
+      <ParamList name="Device::AMTI:400600:V1.0:23859643M">
+        <Param name="UserID" value="1"/>
+        <Param name="DeviceName" value=""/>
+        <Param name="Connected" value="1"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="Connectivity" value="Digital"/>
+        <Param name="SourceID" value="5"/>
+        <Param name="SourceStatus" value="Ok"/>
+        <Param name="DeviceFamily" value="AMTI 400600 V1.0"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceCategory" value="Force Plate"/>
+        <Param name="FramePeriod" value="2160000"/>
+        <Param name="SamplePeriod" value="135000"/>
+        <Param name="Visible" value="1"/>
+        <Param name="AlwaysShow" value="0"/>
+        <Param name="Enabled" value="1"/>
+        <Param hidden="0" name="StandardDimension_X" value="0.4"/>
+        <Param hidden="0" name="StandardDimension_Y" value="0.6"/>
+        <Param hidden="0" name="ParameterA" value="0.0011684"/>
+        <Param hidden="0" name="ParameterB" value="-0.000127"/>
+        <Param hidden="0" name="ParameterAZ0" value="-0.0414782"/>
+        <Param hidden="0" name="AmplifierModel" value="GEN 5"/>
+        <Param hidden="0" name="AmplifierSerial" value="2385"/>
+        <Param hidden="0" name="PlatformModel" value="BP400600-4000"/>
+        <Param hidden="0" name="PlatformSerial" value="9643M"/>
+        <Param hidden="0" name="FirmwareVersion" value="C2.0.0-S2.0.0"/>
+        <Param hidden="0" name="BlinkAction" value="0"/>
+        <Param name="StandardPosition_X" value="0.2"/>
+        <Param name="StandardPosition_Y" value="-0.305"/>
+        <Param name="StandardPosition_Z" value="0"/>
+        <Param name="StandardOrientation_X" value="0"/>
+        <Param name="StandardOrientation_Y" value="0"/>
+        <Param name="StandardOrientation_Z" value="0"/>
+        <Param name="SyncInput_Sync Port"/>
+      </ParamList>
+      <ParamList name="Device::AMTI:400600:V1.0:23869644M">
+        <Param name="UserID" value="0"/>
+        <Param name="DeviceName" value=""/>
+        <Param name="Connected" value="1"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="Connectivity" value="Digital"/>
+        <Param name="SourceID" value="4"/>
+        <Param name="SourceStatus" value="Ok"/>
+        <Param name="DeviceFamily" value="AMTI 400600 V1.0"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceCategory" value="Force Plate"/>
+        <Param name="FramePeriod" value="2160000"/>
+        <Param name="SamplePeriod" value="135000"/>
+        <Param name="Visible" value="1"/>
+        <Param name="AlwaysShow" value="0"/>
+        <Param name="Enabled" value="1"/>
+        <Param hidden="0" name="StandardDimension_X" value="0.4"/>
+        <Param hidden="0" name="StandardDimension_Y" value="0.6"/>
+        <Param hidden="0" name="ParameterA" value="-0.0006604"/>
+        <Param hidden="0" name="ParameterB" value="-0.0004572"/>
+        <Param hidden="0" name="ParameterAZ0" value="-0.042799"/>
+        <Param hidden="0" name="AmplifierModel" value="GEN 5"/>
+        <Param hidden="0" name="AmplifierSerial" value="2386"/>
+        <Param hidden="0" name="PlatformModel" value="BP400600D-4000"/>
+        <Param hidden="0" name="PlatformSerial" value="9644M"/>
+        <Param hidden="0" name="FirmwareVersion" value="C2.0.0-S2.0.0"/>
+        <Param hidden="0" name="BlinkAction" value="0"/>
+        <Param name="StandardPosition_X" value="0.2"/>
+        <Param name="StandardPosition_Y" value="0.3"/>
+        <Param name="StandardPosition_Z" value="0"/>
+        <Param name="StandardOrientation_X" value="0"/>
+        <Param name="StandardOrientation_Y" value="0"/>
+        <Param name="StandardOrientation_Z" value="3.14159"/>
+        <Param name="SyncInput_Sync Port"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="Device::AMTI Digital device common settings V1.0">
+    <ParamListGroup name="">
+      <ParamList name="Device::AMTI:Digital device common settings:V1.0:AMTI Shared Config Device">
+        <Param name="UserID" value="1"/>
+        <Param name="DeviceName" value=""/>
+        <Param name="Connected" value="1"/>
+        <Param name="DelayCompensation" value="0"/>
+        <Param name="DeviceReady" value="1"/>
+        <Param name="SourceName" value="AMTI:Digital device common settings:V1.0:AMTI Shared Config Device"/>
+        <Param name="Connectivity" value="Digital"/>
+        <Param name="SourceID" value="3"/>
+        <Param name="SourceStatus" value="NotContributing"/>
+        <Param name="DeviceFamily" value="AMTI Digital device common settings V1.0"/>
+        <Param name="DeviceTag" value="AMTI:Digital device common settings:V1.0:AMTI Shared Config Device"/>
+        <Param name="DeviceID" value="2"/>
+        <Param name="DeviceCategory" value="Other Devices"/>
+        <Param name="FramePeriod" value="1350000"/>
+        <Param name="SamplePeriod" value="0"/>
+        <Param name="Visible" value="1"/>
+        <Param name="AlwaysShow" value="1"/>
+        <Param name="Enabled" value="1"/>
+        <Param hidden="0" name="SampleRate" value="1000"/>
+        <Param hidden="0" name="SyncMode" value="Software trigger"/>
+        <Param hidden="0" name="DataThreshold" value="20"/>
+        <Param hidden="0" name="BroadcastZero" value="0"/>
+        <Param hidden="1" name="BroadcastResetUSB" value="0"/>
+        <Param hidden="0" name="ScanForHardware" value="0"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI 400600 V1.0::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23859643M,3">
+        <Param name="DeviceOutputName" value="CoP"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputType" value="CoP"/>
+        <Param name="DeviceOutputQuantity" value="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23869644M,3">
+        <Param name="DeviceOutputName" value="CoP"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputType" value="CoP"/>
+        <Param name="DeviceOutputQuantity" value="1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI 400600 V1.0::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23859643M,1">
+        <Param name="DeviceOutputName" value="Force"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Force"/>
+        <Param name="DeviceOutputQuantity" value="0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23869644M,1">
+        <Param name="DeviceOutputName" value="Force"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputType" value="Force"/>
+        <Param name="DeviceOutputQuantity" value="0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutput::AMTI 400600 V1.0::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23859643M,2">
+        <Param name="DeviceOutputName" value="Moment"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputType" value="Moment"/>
+        <Param name="DeviceOutputQuantity" value="0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutput::AMTI:400600:V1.0:23869644M,2">
+        <Param name="DeviceOutputName" value="Moment"/>
+        <Param name="DeviceOutputReady" value="1"/>
+        <Param name="Connected" value="1"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputType" value="Moment"/>
+        <Param name="DeviceOutputQuantity" value="0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"/>
+        <Param name="Enabled" value="1"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI 400600 V1.0::CoP">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,3,1">
+        <Param name="DeviceOutputComponentName" value="Cx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,3,2">
+        <Param name="DeviceOutputComponentName" value="Cy"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,3,3">
+        <Param name="DeviceOutputComponentName" value="Cz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,3,1">
+        <Param name="DeviceOutputComponentName" value="Cx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,3,2">
+        <Param name="DeviceOutputComponentName" value="Cy"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,3,3">
+        <Param name="DeviceOutputComponentName" value="Cz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="3"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI 400600 V1.0::Force">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,1,1">
+        <Param name="DeviceOutputComponentName" value="Fx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,1,2">
+        <Param name="DeviceOutputComponentName" value="Fy"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,1,3">
+        <Param name="DeviceOutputComponentName" value="Fz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,1,1">
+        <Param name="DeviceOutputComponentName" value="Fx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,1,2">
+        <Param name="DeviceOutputComponentName" value="Fy"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,1,3">
+        <Param name="DeviceOutputComponentName" value="Fz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="1"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+  <ParamDefinitionList name="DeviceOutputComponent::AMTI 400600 V1.0::Moment">
+    <ParamListGroup name="">
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,2,1">
+        <Param name="DeviceOutputComponentName" value="Mx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,2,2">
+        <Param name="DeviceOutputComponentName" value="My"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23859643M,2,3">
+        <Param name="DeviceOutputComponentName" value="Mz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23859643M"/>
+        <Param name="DeviceID" value="4"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,2,1">
+        <Param name="DeviceOutputComponentName" value="Mx"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="1"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,2,2">
+        <Param name="DeviceOutputComponentName" value="My"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="2"/>
+      </ParamList>
+      <ParamList name="DeviceOutputComponent::AMTI:400600:V1.0:23869644M,2,3">
+        <Param name="DeviceOutputComponentName" value="Mz"/>
+        <Param name="DeviceTag" value="AMTI:400600:V1.0:23869644M"/>
+        <Param name="DeviceID" value="3"/>
+        <Param name="DeviceOutputID" value="2"/>
+        <Param name="DeviceOutputComponentID" value="3"/>
+      </ParamList>
+    </ParamListGroup>
+  </ParamDefinitionList>
+
+</ParamStore>
